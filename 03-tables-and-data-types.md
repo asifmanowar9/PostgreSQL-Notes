@@ -1,3 +1,5 @@
+# 03 Tables And Data Types
+
 # 02 - Data Definition Language (DDL)
 
 DDL is used to define database structures like schemas and tables.

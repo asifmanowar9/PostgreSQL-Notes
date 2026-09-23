@@ -1,3 +1,5 @@
+# 01 Basics
+
 # 01 - Introduction and Setup
 
 ## Running PostgreSQL in Docker
