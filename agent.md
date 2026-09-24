@@ -14,18 +14,18 @@ This document serves as a state tracker for AI agents assisting with this reposi
 - [x] **08-joins.md**: `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`.
 - [x] **09-aggregation.md**: `COUNT`, `GROUP BY`, `HAVING`.
 - [x] **10-subqueries-and-cte.md**: Nested `WHERE IN` queries and `WITH` CTEs.
-- [ ] **11-advanced-sql.md**: **[IN PROGRESS]** Window Functions (`OVER`, `PARTITION BY`).
+- [x] **11-advanced-sql.md**: Window Functions (`OVER`, `PARTITION BY`).
 - [x] **12-postgresql-specific.md**: JSON/JSONB, Arrays, ENUMs.
-- [ ] **13-indexes-and-performance.md**: `EXPLAIN ANALYZE`, B-Tree indexes.
-- [ ] **14-transactions.md**: `BEGIN`, `COMMIT`, `ROLLBACK`, Isolation levels.
-- [ ] **15-users-and-permissions.md**: Roles, `GRANT`, `REVOKE`.
-- [ ] **16-backup-and-restore.md**: `pg_dump`, `pg_restore`.
+- [x] **13-indexes-and-performance.md**: `EXPLAIN ANALYZE`, B-Tree indexes, Query Planner.
+- [x] **14-transactions.md**: `BEGIN`, `COMMIT`, `ROLLBACK`, `SAVEPOINT`, `FOR UPDATE`.
+- [x] **15-users-and-permissions.md**: Roles, `GRANT`, `REVOKE`, Row-Level Security (RLS).
+- [x] **16-backup-and-restore.md**: `pg_dump`, `pg_restore`.
 - [ ] **17-postgresql-with-prisma.md**: ORM integration.
 - [ ] **cheatsheet.md**: Final quick reference guide.
 
 ## Current State
 
-- **Current Topic**: Advanced SQL (Window Functions).
-- **Next Topic**: To be decided by the user (likely finishing 11-advanced-sql, or filling in gaps like 05 or 07).
+- **Current Topic**: PostgreSQL with Prisma.
+- **Next Topic**: Cheatsheet.
 - **Database State**: PostgreSQL 16 running in Docker (`pg_learning`), database `learning_db`.
 - **Current Tables**: `authors` (id, name), `posts` (id, title, content, published_at, author_id).

@@ -29,3 +29,32 @@ SELECT authors.name, AuthoredPosts.title
 FROM AuthoredPosts
 JOIN authors ON AuthoredPosts.author_id = authors.id;
 ```
+
+### Advanced CTEs: Chaining
+You can chain multiple CTEs together to create a readable data pipeline. Each CTE can query the results of the CTE directly above it.
+
+```sql
+WITH AsifsPosts AS (
+    -- CTE 1: Get only Asif's posts
+    SELECT id, title FROM posts WHERE author_id = 1
+),
+FilteredPosts AS (
+    -- CTE 2: Read from CTE 1, not the main table!
+    SELECT id, title FROM AsifsPosts WHERE title ILIKE '%post%'
+)
+-- Main Query: Output the result of the final CTE
+SELECT COUNT(*) as final_count FROM FilteredPosts;
+```
+
+### Advanced CTEs: Data Modification
+PostgreSQL allows you to run `INSERT`, `UPDATE`, or `DELETE` inside a CTE, and pass the modified rows to the next step using `RETURNING`.
+
+```sql
+WITH DeletedPost AS (
+    -- Delete the row, but grab its title on the way out
+    DELETE FROM posts WHERE id = 5 RETURNING title
+)
+-- Insert a log of what we just deleted into an audit table
+INSERT INTO audit_logs (action, resource_name)
+SELECT 'Deleted a post', title FROM DeletedPost;
+```
