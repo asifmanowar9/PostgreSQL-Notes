@@ -5,17 +5,17 @@ This document serves as a state tracker for AI agents assisting with this reposi
 ## Progress Overview
 
 - [x] **01-basics.md**: Introduction, Docker setup, `psql` connections.
-- [ ] **02-databases-and-schemas.md**: _Not yet fully covered (covered implicitly)._
+- [x] **02-databases-and-schemas.md**: Databases, Schemas (`public` vs custom).
 - [x] **03-tables-and-data-types.md**: `CREATE TABLE`, `TEXT` vs `VARCHAR`, `TIMESTAMPTZ`, Identity columns.
 - [x] **04-crud.md**: `INSERT`, `SELECT`, `UPDATE`, `DELETE`, `RETURNING`, `ON CONFLICT` (UPSERT).
-- [ ] **05-constraints.md**: _Covered PK/FK, need to cover `UNIQUE`, `CHECK`, `DEFAULT`._
+- [x] **05-constraints.md**: `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`, `CHECK`, `DEFAULT`.
 - [x] **06-relationships.md**: Foreign Keys and referential integrity.
-- [ ] **07-select-and-filtering.md**: _Need to cover `LIKE`, `ILIKE`, `BETWEEN`, `LIMIT`, `OFFSET`._
+- [x] **07-select-and-filtering.md**: `LIKE`, `ILIKE`, `IN`, `BETWEEN`, `LIMIT`, `OFFSET`.
 - [x] **08-joins.md**: `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`.
 - [x] **09-aggregation.md**: `COUNT`, `GROUP BY`, `HAVING`.
 - [x] **10-subqueries-and-cte.md**: Nested `WHERE IN` queries and `WITH` CTEs.
 - [ ] **11-advanced-sql.md**: **[IN PROGRESS]** Window Functions (`OVER`, `PARTITION BY`).
-- [ ] **12-postgresql-specific.md**: JSON/JSONB, Arrays, ENUMs.
+- [x] **12-postgresql-specific.md**: JSON/JSONB, Arrays, ENUMs.
 - [ ] **13-indexes-and-performance.md**: `EXPLAIN ANALYZE`, B-Tree indexes.
 - [ ] **14-transactions.md**: `BEGIN`, `COMMIT`, `ROLLBACK`, Isolation levels.
 - [ ] **15-users-and-permissions.md**: Roles, `GRANT`, `REVOKE`.
