@@ -20,12 +20,12 @@ This document serves as a state tracker for AI agents assisting with this reposi
 - [x] **14-transactions.md**: `BEGIN`, `COMMIT`, `ROLLBACK`, `SAVEPOINT`, `FOR UPDATE`.
 - [x] **15-users-and-permissions.md**: Roles, `GRANT`, `REVOKE`, Row-Level Security (RLS).
 - [x] **16-backup-and-restore.md**: `pg_dump`, `pg_restore`.
-- [ ] **17-postgresql-with-prisma.md**: ORM integration.
-- [ ] **cheatsheet.md**: Final quick reference guide.
+- [x] **17-postgresql-with-prisma.md**: ORM integration.
+- [x] **cheatsheet.md**: Final quick reference guide.
 
 ## Current State
 
-- **Current Topic**: PostgreSQL with Prisma.
-- **Next Topic**: Cheatsheet.
+- **Current Topic**: Curriculum Complete! 🎉
+- **Next Topic**: None. Database mastery achieved.
 - **Database State**: PostgreSQL 16 running in Docker (`pg_learning`), database `learning_db`.
 - **Current Tables**: `authors` (id, name), `posts` (id, title, content, published_at, author_id).
