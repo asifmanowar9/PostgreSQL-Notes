@@ -1,6 +1,6 @@
 # PostgreSQL Learning & Documentation
 
-Welcome to your personal PostgreSQL documentation! This repository serves as your comprehensive, custom-built reference guide for "raw" PostgreSQL.
+Welcome to your personal PostgreSQL documentation! This repository serves as your comprehensive, custom-built reference guide for "raw" PostgreSQL..
 
 ## Documentation Index
 
