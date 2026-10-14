@@ -4,7 +4,7 @@ Welcome to your personal PostgreSQL documentation! This repository serves as you
 
 ## Documentation Index
 
-The curriculum is structured into the following topics. Check `agent.md` to see the current progress and learning state.
+The curriculum is structured into the following topics. Check `agent.md` to see the current progress and learning state..
 
 ### Core Concepts
 
