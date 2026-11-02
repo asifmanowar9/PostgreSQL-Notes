@@ -2,7 +2,7 @@
 
 Welcome to your personal PostgreSQL documentation! This repository serves as your comprehensive, custom-built reference guide for "raw" PostgreSQL..
 
-## Documentation Index
+## Documentation Index.
 
 The curriculum is structured into the following topics. Check `agent.md` to see the current progress and learning state..
 
