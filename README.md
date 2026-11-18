@@ -37,4 +37,4 @@ The curriculum is structured into the following topics. Check `agent.md` to see 
 **Quick Reference:**
 
 - [Cheatsheet](cheatsheet.md) - Fast reference for common commands.
-- [Agent State](agent.md) - Progress tracker for AI assistants.
+- [Agent State](agent.md) - Progress tracker for AI assistants..
