@@ -1,6 +1,6 @@
 # 02 Databases And Schemas
 
-PostgreSQL uses a hierarchical structure to organize data.
+PostgreSQL uses a hierarchical structure to organize data..
 
 1. **Cluster:** The entire PostgreSQL server running on your machine (or in your Docker container).
 2. **Database:** An isolated collection of data. Databases cannot easily communicate with each other.
