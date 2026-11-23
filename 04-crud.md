@@ -24,7 +24,7 @@ RETURNING *;
 
 ## UPSERT (`ON CONFLICT`)
 
-In many applications, you want to insert a row, but if a row with that unique identifier already exists, you want to update it instead of crashing. PostgreSQL handles this gracefully with the `ON CONFLICT` clause.
+In many applications, you want to insert a row, but if a row with that unique identifier already exists, you want to update it instead of crashing. PostgreSQL handles this gracefully with the `ON CONFLICT` clause..
 
 _Note: The column you check for conflict MUST have a UNIQUE constraint (like a Primary Key)._
 
